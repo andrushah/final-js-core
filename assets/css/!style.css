@@ -1,0 +1,139 @@
+@import url("./reset.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.timer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  color: #4d4d4d;
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls button {
+  border: 1px solid #FFCAC7;
+  outline: none;
+  padding: 10px 20px;
+  margin: 0 20px;
+  color: #fff;
+  background-color: #EA4F4A;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.game-block {
+  width: 1024px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  width: 450px;
+  height: 450px;
+  -webkit-box-shadow: 0 0 10px 1px #3d3d3d;
+          box-shadow: 0 0 10px 1px #3d3d3d;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul li {
+  width: 112.5px;
+  height: 112.5px;
+}
+
+#arsenal {
+  display: none;
+}
+
+#right li {
+  border: 1px solid #000;
+  background: none;
+}
+
+.ars-1 {
+  background: url("../images/arsenal.jpg") no-repeat 0px 0px;
+}
+
+.ars-2 {
+  background: url("../images/arsenal.jpg") no-repeat -112.5px 0;
+}
+
+.ars-3 {
+  background: url("../images/arsenal.jpg") no-repeat -225px 0;
+}
+
+.ars-4 {
+  background: url("../images/arsenal.jpg") no-repeat 100% 0px;
+}
+
+.ars-5 {
+  background: url("../images/arsenal.jpg") no-repeat 0px -112.5px;
+}
+
+.ars-6 {
+  background: url("../images/arsenal.jpg") no-repeat -112.5px -112px;
+}
+
+.ars-7 {
+  background: url("../images/arsenal.jpg") no-repeat -225px -112px;
+}
+
+.ars-8 {
+  background: url("../images/arsenal.jpg") no-repeat 100% -112px;
+}
+
+.ars-9 {
+  background: url("../images/arsenal.jpg") no-repeat 0px -225px;
+}
+
+.ars-10 {
+  background: url("../images/arsenal.jpg") no-repeat -112.5px -225px;
+}
+
+.ars-11 {
+  background: url("../images/arsenal.jpg") no-repeat -225px -225px;
+}
+
+.ars-12 {
+  background: url("../images/arsenal.jpg") no-repeat 100% -225px;
+}
+
+.ars-13 {
+  background: url("../images/arsenal.jpg") no-repeat 0px 100%;
+}
+
+.ars-14 {
+  background: url("../images/arsenal.jpg") no-repeat -112.5px 100%;
+}
+
+.ars-15 {
+  background: url("../images/arsenal.jpg") no-repeat -225px 100%;
+}
+
+.ars-16 {
+  background: url("../images/arsenal.jpg") no-repeat 100% 100%;
+}
+
+.active {
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
